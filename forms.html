@@ -8,8 +8,10 @@
     <body>
         <form action="#" method="">  
             <!-- text input -->
-            <input type="text" name="username">username<br>
-            <input type="text" name="password">password<br>
+            <label for="username">Username</label>
+            <input type="text" name="username"><br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password"><br>
             
             <!-- text input -->
             <input type="radio" name="gender" value=male>male<br>
@@ -19,7 +21,22 @@
             <input type="checkbox" name="taco" value="grapes">taco<br>
             <input type="checkbox" name="hamburger" value="grapes">hamburger<br>
 
-            <button type="submit" name="submit">submit</button>
+            <textarea name="bio" id="" cols="10" rows="10"></textarea><br>
+
+            <select>
+                <optgroup label="Americas">
+                    <option value="">North Amercia</option>
+                    <option value="">South Amercia</option>
+                </optgroup>
+                <optgroup>
+                <option value="">North Amercia</option>
+                <option value="">South Amercia</option>
+                <option value="">Europe</option>
+                <option value="">Africa</option>
+                <option value="">Asia</option>
+            </section>
+
+            <input type="submit" name="submit">
 
 
         </form>   
